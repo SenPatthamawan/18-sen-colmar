@@ -160,6 +160,7 @@
     background-color: aquamarine;
   }
 
+
   .thesis {
     flex: 1;
     background-color: orangered;
@@ -182,7 +183,6 @@
 }
 
 .information__right {
-    border: 0 0 0 1px solid green;
     padding: 16px 0 0 0;
     width: 100%;
     flex: 40%;
@@ -197,7 +197,7 @@
 }
 
 .information__left__head {
-  font-size: 25px;
+  font-size: 40px;
   color: #4a4a4a;
   font-weight: bold;
   padding: 32px 0 24px 0;
@@ -261,3 +261,59 @@
 hr {
     border: 1px solid #d8d8d8;
 }
+
+/* main > course */
+.start__learning {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 32px 0 0 0;
+    background-color: #d8d8d8;
+    color: #4a4a4a;
+}
+
+
+.learning__subject {
+    background-color: #d8d8d8;
+    padding: 32px 72px 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.software__eng , .computer__art , .design , .data , .business , .marketing {
+    display: flex;
+    flex-direction: column;
+    width: 31.5%;
+    background-color: white;
+    align-items: start;
+}
+
+.learning__subject img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.learning__subject__title {
+    font-weight: bold;
+    color: #414141;
+    font-size: 24px;
+    padding: 16px 16px 0 16px;
+}
+
+.learning__subject__courses {
+    font-size: 16px;
+    color: #4a4a4a;
+    padding: 8px 16px 8px 16px;
+}
+
+.learning__subject__description {
+    font-size: 16px;
+    color: #4a4a4a;
+    padding: 0 16px 24px 16px;
+}
+
