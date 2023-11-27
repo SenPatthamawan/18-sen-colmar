@@ -459,6 +459,31 @@ hr {
         background-color: #9b9b9b;
     }
 
+    .information__right__orientation__date , .information__right__our__campus , .information__right__guest {
+        display: block;
+    }
+
+    .information__right__img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .information__right {
+        padding: 0%;
+    }
+
+    .information__right__name {
+        padding: 16px 16px 8px 16px;
+    }
+
+    .information__right__description {
+        padding: 0 16px 8px 16px;
+    }
+
+    .information__right__more {
+        padding: 0 16px 64px 16px;
+
+    }
 
   }
 
