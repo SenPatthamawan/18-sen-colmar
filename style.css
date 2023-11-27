@@ -65,3 +65,26 @@
   .nav-link-logo b{
     color: #4a4a4a;
   }
+
+  /* footer */
+  footer {
+    background-color: white;
+    padding: 16px 24px 0 24px;
+    height: 80px;
+    color: #959595;
+  }
+
+  .footer__section {
+    display: flex;
+  }
+
+  .footer__left {
+    flex: 1;
+  }
+
+  .footer__right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
