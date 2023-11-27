@@ -5,7 +5,7 @@
   }
 
   html {
-    height: 1000vh;
+    height: 100%;
     width: 100%;
     border:1px solid #959595;
   }
@@ -204,12 +204,12 @@
 }
 
 .information__left__description {
-  color: #414141;
+  color: #484848;
   padding: 0 0 24px 0;
 }
 
 .information__left__author {
-    color: #414141;
+    color: #484848;
     padding: 24px 0 0 0;
 }
 
@@ -247,7 +247,7 @@
 }
 
 .information__right__description {
-    color: #4a4a4a;
+    color: #484848;
     padding: 8px 16px 8px 0;
     font-size: 16px;
 }
@@ -307,13 +307,103 @@ hr {
 
 .learning__subject__courses {
     font-size: 16px;
-    color: #4a4a4a;
+    color: #797979;
     padding: 8px 16px 8px 16px;
 }
 
 .learning__subject__description {
     font-size: 16px;
-    color: #4a4a4a;
+    color: #797979;
     padding: 0 16px 24px 16px;
+}
+
+/* main > thesis */
+.thesis__exhibit {
+    background-color: white;
+    padding: 32px 72px 32px 72px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #4a4a4a;
+}
+
+.thesis__panel {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.thesis__panel__left {
+    flex: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 0 24px 32px 24px;
+}
+
+.thesis__panel video {
+    width: 100%;
+    /* padding: 0 24px 24px 24px; */
+}
+
+.thesis__panel__left__head {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 24px 24px 8px 0;
+    color: #4a4a4a;
+
+}
+
+.thesis__panel__left__description {
+    color: #797979;
+}
+
+.thesis__panel__right {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.thesis__panel__right__prototype__product {
+        display: flex;
+        align-items: center;
+        background-color: #d8d8d8;
+    
+}
+
+.thesis__panel__right__now__and__then {
+    display: flex;
+    align-items: center;
+}
+
+.thesis__panel__right__img {
+    flex: 35%;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    padding: 16px 16px 16px 16px;
+}
+
+.split__section__info__thesis {
+    flex: 65%;
+    align-items: center;
+
+}
+
+.info__thesis__name {
+    padding: 0 16px 0 0;
+    font-weight: bold;
+    color: #4a4a4a;
+    padding: 0 16px 8px 0;
+}
+
+.info__thesis__description {
+    padding: 0 16px 0 0;
+    color: #797979;
+    padding: 0 16px 0 0;
+
 }
 
