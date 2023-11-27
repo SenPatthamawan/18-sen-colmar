@@ -407,3 +407,39 @@ hr {
 
 }
 
+@media screen and (max-width: 768px) {
+
+    .nav__link__logo span , .nav__list , .information__left , .learning__subject , .thesis__panel__right , .thesis__panel__left span , p , .navbar__right__side{
+        display: none;
+    } 
+
+    .nav__link__logo {
+        gap: 160px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    
+    .hero__container {
+    display: block;    
+    }
+
+    /* .banner__img {
+    width: 100%;
+    object-fit: cover;
+    } */
+
+    /* .hero__left {
+        flex: 100%;
+        width: 100%;
+    } */
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+    .icon__campus , .icon__online , .icon__login{
+        display: none;
+    }
+  }
+
